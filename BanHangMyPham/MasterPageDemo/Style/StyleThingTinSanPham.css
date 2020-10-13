@@ -1,0 +1,111 @@
+﻿@media screen and (min-width: 768px) {
+
+    body {
+    }
+
+    #ThongTinChiTiet {
+        width: 60%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+    #NoiDung span {
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #ContentPlaceHolder1_imgGiay {
+        margin-bottom: 5px;
+    }
+
+    .img {
+        width: 50%;
+    }
+
+    #NoiDung {
+        display: inline-block;
+        width: 35%;
+        padding: 2em;
+    }
+
+    .lblTenMyPham {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .lblGia {
+        font-weight: bold;
+        color: red;
+    }
+
+    .lblLoaiMyPham {
+    }
+
+    .lblHangMyPham {
+    }
+
+    .lblMoTa {
+    }
+
+    .btnGioHang {
+        margin: 1em auto 2em auto;
+    }
+
+
+
+    .aspControl {
+        padding: 2px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #ThongTinChiTiet {
+        width: 80%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+    #NoiDung span {
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #ContentPlaceHolder1_imgMyPham {
+        margin-bottom: 5px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+
+
+    .lblTenMyPham {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .lblGia {
+        font-weight: bold;
+        color: red;
+    }
+
+    .lblLoaiMyPham {
+    }
+
+    .lblHangMyPham {
+    }
+
+    .lblMoTa {
+    }
+
+    .btnGioHang {
+        margin: 0 auto 1em auto;
+        display: inherit;
+    }
+
+    .aspControl {
+        padding: 2px;
+    }
+}

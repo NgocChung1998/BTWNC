@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="client.master.cs" Inherits="MasterPageDemo.MasterPage.client" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+        <link href="../Style/MasterPage.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="menu">
+             <table style="width: 90%; height: 60px; margin:0 auto">
+                <tr>
+                    <td id="logo">
+                        <a href="TrangChu.aspx"><img src="../img/LogoGiayTot.jpg" style="height: 60px;"></a>
+
+                    </td>
+                    <td id="tdLink-Header">
+                        <div id="link-Header">
+                            <ul>
+                                <li><a class="a-Header" href="Nam.aspx" id="nam">NAM</a></li>
+                                <li><a class="a-Header" href="Nu.aspx" id="nu">NỮ</a></li> 
+                                
+                            </ul>
+                        </div>
+                    </td>
+                    <td id="tdSearchBar">
+                        <div>
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="searchBar"></asp:TextBox>
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="20px"  ImageUrl="~/img/searchLogo.png" OnClick="ImageButton1_Click" ImageAlign="AbsMiddle" />
+                        </div>
+                    </td>
+                    <td id="tdChucNang">
+                            <a href="DangNhap.aspx" class="icon-Header"><img src="../img/person.png" style="height:32px;"></a>
+                            <a href="#" class="icon-Header"><img src="../img/love.png" style="height:35px;"></a>
+                            <a href="GioHang.aspx" class="icon-Header"><img src="../img/cart.png" style="height:35px;"></a>
+                    </td>
+                    <td id="tdLoiChao">
+                        <asp:Label ID="lblHelloSession" runat="server" Text="Xin chào Khách!" ForeColor="White"></asp:Label>
+                        <asp:ImageButton ID="btnLogout" runat="server" OnClick="btnLogout_Click" Height="30px" ImageUrl="~/img/logout.png" ImageAlign="AbsMiddle" />
+                    </td>
+                </tr>
+             
+            </table>
+                </div>
+        </header>
+
+
+        <div id="ContentPlaceHolder">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <div id="link-Footer">
+                 <ul>
+                    <li><a class="a-Footer" href="nam.aspx">NAM</a></li>
+                    <li><a class="a-Footer" href="nu.aspx">NỮ</a></li>
+                </ul>
+            </div>
+            <div id="main-Footer">
+                <table style="width: 80%; height: 120px; margin:0 auto; padding-top: 15px;">
+                    <tr>
+                        <td class="tdFooter">
+                            <a href="Trangchu.aspx"><img src="../img/LogoGiayTot.jpg" align="Absbottom" style="height: 60px; margin: 1em;"><br /></a>
+                            Địa chỉ: 96 Định Công</td>
+                        <td class="tdFooter"><h2>LIÊN HỆ: DosTeam</h2>
+                            <p>&nbsp;</p>Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a><br />
+                            <br />
+                            SDT: 0912345678</td>
+                        <td class="tdFooter"><h2>HỖ TRỢ</h2>
+                            <p>&nbsp;</p>
+                           <asp:TextBox ID="TextBox2" runat="server" ></asp:TextBox>
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="20px" ImageAlign="AbsMiddle" ImageUrl="~/img/searchLogo.png" OnClick="ImageButton1_Click" />
+                            
+                            <br />
+                            <br />
+                            Design by DosTeam</td>
+                    </tr>
+                    </table>
+            </div>
+        </footer>
+    </form>
+            <script type="text/javascript">
+
+                function clickButton(e, buttonid) {
+                    var evt = e ? e : window.event;
+                    var bt = document.getElementById(buttonid);
+
+                    if (bt) {
+                        if (evt.keyCode == 13) {
+                            bt.click();
+                            return false;
+                        }
+                    }
+                }
+        </script>
+</body>
+</html>

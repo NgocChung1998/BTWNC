@@ -1,0 +1,44 @@
+﻿body {
+}
+
+.FormNhap {
+    width: 600px;
+    margin:  auto;
+    padding: 1em;
+}
+
+    .FormNhap span, .FormNhap input, .FormNhap select, .FormNhap p {
+        margin: 10px;
+        padding: 3px;
+    }
+
+    .FormNhap span {
+        width: 150px;
+        display: inline-block;
+    }
+
+.tblGioHang {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.tblGioHang tr {
+        height: 35px;
+        line-height: 35px;
+}
+
+.btn{
+    height: 60px;
+    width: 150px;
+    margin: auto;
+}
+
+#spanTongTien{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .btn{
+        display:inherit;
+    }
+}

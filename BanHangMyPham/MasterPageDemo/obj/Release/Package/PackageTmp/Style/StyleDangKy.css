@@ -1,0 +1,71 @@
+﻿@media screen and (min-width: 768px) {
+    #tblForm {
+        margin: 20px auto;
+        width: 400px;
+        display:table;
+    }
+
+    #tblForm tr td {
+        text-align: left;
+        line-height: 50px;
+    }
+
+    #tblForm tr{
+        height: 50px;
+        border: 1px solid black;
+    }
+
+   .txtInput{
+        padding: 5px;
+        width: 200px;
+    }
+
+    .btnDangKy {
+        width: 75px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 75px;
+        margin: 1em auto 1em auto;
+    }
+
+}
+
+
+/**/
+@media screen and (max-width: 768px) {
+    #tblForm {
+        margin: 20px auto;
+        width: 300px;
+    }
+
+    #tblForm tr td p {
+        text-align: left;
+        line-height: 35px;
+    }
+
+    #tblForm tr {
+        height: 35px;
+        display: inline-table;
+        border-bottom: 1px dotted gray;
+    }
+
+    .txtInput{
+        padding: 2px;
+        width: 300px;
+    }
+    
+    .btnDangKy {
+        width: 75px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 75px;
+        margin: 1em auto 1em auto;
+    }
+
+}

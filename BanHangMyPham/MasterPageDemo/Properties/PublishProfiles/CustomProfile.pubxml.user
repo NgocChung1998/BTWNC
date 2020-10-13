@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\GiayTot\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/DangNhap.aspx">
+      <publishTime>11/13/2018 21:50:22</publishTime>
+    </File>
+    <File Include="Admin/MasterPage/admin.Master">
+      <publishTime>11/15/2018 10:13:09</publishTime>
+    </File>
+    <File Include="Admin/QuanLyHangGiay.aspx">
+      <publishTime>11/15/2018 10:50:46</publishTime>
+    </File>
+    <File Include="Admin/QuanLyHoaDon.aspx">
+      <publishTime>11/15/2018 09:57:42</publishTime>
+    </File>
+    <File Include="Admin/QuanLyKhachHang.aspx">
+      <publishTime>11/15/2018 10:48:07</publishTime>
+    </File>
+    <File Include="Admin/QuanLyLoaiGiay.aspx">
+      <publishTime>11/15/2018 10:49:54</publishTime>
+    </File>
+    <File Include="Admin/QuanLySanPham.aspx">
+      <publishTime>11/15/2018 10:36:00</publishTime>
+    </File>
+    <File Include="Admin/Style/AdminMasterPage.css">
+      <publishTime>11/15/2018 10:13:43</publishTime>
+    </File>
+    <File Include="Admin/Style/DangNhap.css">
+      <publishTime>11/13/2018 22:02:39</publishTime>
+    </File>
+    <File Include="Admin/Style/QLSanPham.css">
+      <publishTime>11/15/2018 10:19:04</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>11/15/2018 11:03:10</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>11/15/2018 11:03:10</publishTime>
+    </File>
+    <File Include="bin/MasterPageDemo.dll">
+      <publishTime>11/15/2018 11:03:02</publishTime>
+    </File>
+    <File Include="bin/MasterPageDemo.pdb">
+      <publishTime>11/15/2018 11:03:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/09/2018 22:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/09/2018 22:08:15</publishTime>
+    </File>
+    <File Include="DangKy.aspx">
+      <publishTime>11/12/2018 20:56:49</publishTime>
+    </File>
+    <File Include="DangNhap.aspx">
+      <publishTime>11/12/2018 19:13:52</publishTime>
+    </File>
+    <File Include="GioHang.aspx">
+      <publishTime>11/13/2018 16:12:07</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/26/2018 22:54:17</publishTime>
+    </File>
+    <File Include="img/add_your_cart.png">
+      <publishTime>11/12/2018 12:54:45</publishTime>
+    </File>
+    <File Include="img/cart.png">
+      <publishTime>10/26/2018 21:47:14</publishTime>
+    </File>
+    <File Include="img/cart_black.png">
+      <publishTime>10/26/2018 21:48:08</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>10/23/2018 16:59:22</publishTime>
+    </File>
+    <File Include="img/LogoGiayTot.jpg">
+      <publishTime>10/25/2018 22:14:52</publishTime>
+    </File>
+    <File Include="img/logout.png">
+      <publishTime>10/28/2018 00:36:48</publishTime>
+    </File>
+    <File Include="img/logout_black.png">
+      <publishTime>10/28/2018 00:16:04</publishTime>
+    </File>
+    <File Include="img/love.png">
+      <publishTime>10/26/2018 21:50:02</publishTime>
+    </File>
+    <File Include="img/love_black.png">
+      <publishTime>10/26/2018 21:49:54</publishTime>
+    </File>
+    <File Include="img/person.png">
+      <publishTime>10/26/2018 21:49:46</publishTime>
+    </File>
+    <File Include="img/person_black.png">
+      <publishTime>10/26/2018 21:49:42</publishTime>
+    </File>
+    <File Include="img/SanPham/1.jpg">
+      <publishTime>11/06/2018 23:46:28</publishTime>
+    </File>
+    <File Include="img/SanPham/2.jpg">
+      <publishTime>11/06/2018 23:46:28</publishTime>
+    </File>
+    <File Include="img/SanPham/3.jpg">
+      <publishTime>11/07/2018 20:51:41</publishTime>
+    </File>
+    <File Include="img/SanPham/4.jpg">
+      <publishTime>11/07/2018 20:51:50</publishTime>
+    </File>
+    <File Include="img/SanPham/5.jpg">
+      <publishTime>11/07/2018 20:51:57</publishTime>
+    </File>
+    <File Include="img/SanPham/6.jpg">
+      <publishTime>11/07/2018 20:52:07</publishTime>
+    </File>
+    <File Include="img/searchLogo.png">
+      <publishTime>10/26/2018 16:57:21</publishTime>
+    </File>
+    <File Include="MasterPage/client.Master">
+      <publishTime>11/15/2018 03:57:30</publishTime>
+    </File>
+    <File Include="Nam.aspx">
+      <publishTime>11/14/2018 21:12:14</publishTime>
+    </File>
+    <File Include="Nu.aspx">
+      <publishTime>11/12/2018 20:55:48</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/15/2018 11:03:03</publishTime>
+    </File>
+    <File Include="Style/MasterPage.css">
+      <publishTime>11/13/2018 20:51:56</publishTime>
+    </File>
+    <File Include="Style/StyleDangKy.css">
+      <publishTime>11/10/2018 20:21:36</publishTime>
+    </File>
+    <File Include="Style/StyleDangNhap.css">
+      <publishTime>11/13/2018 22:35:30</publishTime>
+    </File>
+    <File Include="Style/StyleGioHang.css">
+      <publishTime>11/12/2018 20:36:46</publishTime>
+    </File>
+    <File Include="Style/StyleItemGiay.css">
+      <publishTime>11/12/2018 13:40:29</publishTime>
+    </File>
+    <File Include="Style/StyleItemLoaiGiay.css">
+      <publishTime>11/09/2018 22:31:17</publishTime>
+    </File>
+    <File Include="Style/StyleThingTinSanPham.css">
+      <publishTime>11/12/2018 19:11:37</publishTime>
+    </File>
+    <File Include="ThongTinCaNhan.aspx">
+      <publishTime>11/13/2018 16:42:31</publishTime>
+    </File>
+    <File Include="ThongTinSanPham.aspx">
+      <publishTime>11/12/2018 19:07:51</publishTime>
+    </File>
+    <File Include="TimKiem.aspx">
+      <publishTime>11/12/2018 01:06:44</publishTime>
+    </File>
+    <File Include="TrangChu.aspx">
+      <publishTime>11/12/2018 20:56:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/15/2018 11:03:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

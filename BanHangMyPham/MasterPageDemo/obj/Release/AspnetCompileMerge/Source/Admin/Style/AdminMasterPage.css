@@ -1,0 +1,177 @@
+﻿/*CSS DESKTOP*/
+@media screen and (min-width: 768px) {
+   #menu {
+        background-color: #252830;
+        width: 100%;
+        position: fixed;
+    }
+
+    header {
+        height: 65px;
+        background-color: #252830;
+    }
+
+        header table tr td div {
+            text-align: left;
+        }
+
+
+        #link-Header {
+            display: inline;
+            line-height: 60px;
+            text-align: center;
+        }
+
+
+    #link-Header ul li {
+         display: inline-table;
+    } 
+    
+    .a-Header {
+        color: white;
+        text-decoration: none;
+        font-size: 14pt;
+        margin-right: 2em;
+        font-weight: lighter;
+    }
+
+        .a-Header:hover {
+            text-decoration: underline;
+            transition: all 1s;
+        }
+
+    #header1 {
+        background-color: whitesmoke;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        
+    }
+
+        #header1 ul {
+            margin: auto;
+            text-align:center;
+        }
+
+        #header1 li {
+            display: inline-table;
+            color: black;
+            text-align: center; margin-left: 1em;
+        }
+
+            #header1 li a {
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                margin: auto;
+            }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        /* Height of the footer */
+        background-color: #252830;
+        color: #cfd2da;
+    }
+}
+
+
+
+
+
+/*CSS MOBILE*/
+@media screen and (max-width: 768px) {
+
+    body {
+    }
+     header {
+        background-color: #252830;
+    }
+     header table tr td{
+         display:block;
+         text-align: center;
+         height: 40px;
+     }
+     #logo{
+         height: 60px;
+         border-bottom: 1px solid grey;
+     }
+
+    .searchBar {
+        padding: 2px 3px;
+    }
+
+     #tdLink-Header{
+        display: inline-table;
+        width: 100%;
+     }
+
+     #link-Header ul li a{
+         margin-left: 2em;
+     }
+
+     #tdChucNang{
+         display:inline-table;
+         width: 30%;
+         text-align: right;
+     }
+     #tdLoiChao{
+         display:inline-table;
+         width: 100%;
+         height: 43px;
+         line-height: 38px;
+         text-align: center;
+     }
+
+    .a-Header {
+        color: white;
+        text-decoration: none;
+        font-family: 'UTM Helve';
+        font-size: 18pt;
+        margin:0 auto;
+        font-weight: lighter;
+    }
+    
+    #link-Header ul li {
+         display: inline-block;
+    }
+
+
+    #header1 {
+        background-color: whitesmoke;
+        width: 100%;
+
+    }
+        #header1 ul {
+            display: block;
+            margin: auto;
+            list-style-type:none;
+        }
+
+        #header1 li {
+            color: black;
+            height: 40px;
+            line-height: 40px;
+            text-align:center;
+        }
+
+            #header1 li a {
+                text-decoration: none;
+                color: black;
+            }
+      footer {
+        position:fixed;
+        bottom:0;
+        width:100%;
+        height:30px; 
+        line-height: 30px;
+        text-align: center;
+          /* Height of the footer */
+        background-color: #252830;
+        color: #cfd2da;
+        }
+}

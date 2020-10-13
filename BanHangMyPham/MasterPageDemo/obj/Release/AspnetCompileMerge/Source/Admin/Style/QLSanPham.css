@@ -1,0 +1,163 @@
+﻿@media screen and (min-width: 768px) {
+
+    .SanPham {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .SanPham span, .SanPham input, .SanPham select {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .SanPham span {
+            width: 150px;
+            display: inline-block;
+        }
+
+
+    .LoaiGiay {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .LoaiGiay span, .LoaiGiay input {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .LoaiGiay span {
+            width: 150px;
+            display: inline-block;
+        }
+
+
+
+    .FormNhapHangGiay {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .FormNhapHangGiay span, .FormNhapHangGiay input, .FormNhapHangGiay select {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .FormNhapHangGiay span {
+            width: 150px;
+            display: inline-block;
+        }
+
+    .tableGridView {
+        width: 80%;
+        margin: 0 auto 5em auto;
+    }
+
+        .tableGridView tr th {
+            padding: 15px;
+            background-color: whitesmoke;
+        }
+
+        .tableGridView tr td {
+            padding: 10px;
+        }
+
+            .tableGridView tr td img {
+                width: 50px;
+            }
+
+    .btn {
+        padding: 5px;
+        margin: 3em auto 10px auto;
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .SanPham {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .SanPham span, .SanPham input, .SanPham select {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .SanPham span {
+            width: 150px;
+            display: inline-block;
+        }
+
+
+    .LoaiGiay {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .LoaiGiay span, .LoaiGiay input {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .LoaiGiay span {
+            width: 150px;
+            display: inline-block;
+        }
+
+
+
+    .FormNhapHangGiay {
+        border: 1px solid;
+        width: 800px;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+        .FormNhapHangGiay span, .FormNhapHangGiay input, .FormNhapHangGiay select {
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .FormNhapHangGiay span {
+            width: 150px;
+            display: inline-block;
+        }
+
+    .tableGridView {
+        width: 80%;
+        margin: 0 auto 5em auto;
+    }
+
+        .tableGridView tr th {
+            padding: 15px;
+            background-color: whitesmoke;
+        }
+
+        .tableGridView tr td {
+            padding: 10px;
+        }
+
+            .tableGridView tr td img {
+                width: 50px;
+            }
+
+    .btn {
+        padding: 5px;
+        margin: 3em auto 10px auto;
+        display: block;
+    }
+}

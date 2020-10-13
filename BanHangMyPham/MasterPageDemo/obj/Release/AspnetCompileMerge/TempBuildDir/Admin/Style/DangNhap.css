@@ -1,0 +1,67 @@
+﻿/*CSS DESKTOP*/
+@media screen and (min-width: 768px) {
+
+       #Content{
+           width: 600px;
+           margin: 5em auto;
+           height: 300px;
+
+       }
+       h1,h3{
+           font-weight: normal;
+           margin-bottom: 10px;
+       }         
+       
+       .input{
+           padding: 5px;
+           width: 300px;
+       }
+
+       #Content p, input{
+           margin-bottom: 10px;
+       }       
+
+       .btnDangNhap{
+           margin-top: 2em;
+           width: 120px;
+           height: 40px;
+       }
+        #link-Header{
+           display:none;
+       }
+
+}
+
+
+/*CSS MOBILE*/
+@media screen and (max-width: 768px) {
+
+       #Content{
+           width: 60%;
+           margin: 3em auto;
+       }
+       h1,h3{
+           font-weight: normal;
+           margin-bottom: 10px;
+       }         
+       
+       .input{
+           padding: 5px;
+           width: 77%;
+       }
+
+       #Content p, input{
+           margin-bottom: 10px;
+       }       
+
+       .btnDangNhap{
+           margin-top: 2em auto;
+           width: 80%;
+           height: 40px;
+           padding: 5px;
+       }
+        #link-Header{
+           display:none;
+       }
+
+}

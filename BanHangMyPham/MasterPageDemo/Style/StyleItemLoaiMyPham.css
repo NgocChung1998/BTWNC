@@ -1,0 +1,153 @@
+﻿@media all and (min-width:768px) {
+    #left {
+        width: 200px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 30px 10px 50px 50px;
+    }
+
+    #divListViewLoaiMyPham {
+        background-color: #e6e6e6;
+        border: 1px dotted;
+        padding: 1em;
+    }
+
+    #divLocTheoGia {
+        margin-top: 2em;
+        background-color: aliceblue;
+        border: 1px dotted;
+        padding: 1em;
+    }
+
+    input[type="number"] {
+        margin: 5px;
+        width: 45%;
+    }
+
+    .btnLocTheoGia {
+        width: 75px;
+        padding: 5px;
+        margin: 5px auto;
+    }
+
+    #ItemLoaiMyPham {
+        height: 35px;
+    }
+
+        #ItemLoaiMyPham a {
+            line-height: 35px;
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+            #ItemLoaiMyPham a:hover {
+                text-decoration: underline;
+            }
+
+    #divLocTheoGia p {
+        text-align: center;
+        height: 40px;
+        font-weight: bold;
+    }
+
+    #divLocTheoGia a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        display: block;
+        height: 35px;
+        margin-left: 15px;
+    }
+
+
+        #divLocTheoGia a:hover {
+            text-decoration: underline;
+        }
+
+    #divListViewLoaiMyPham p {
+        text-align: center;
+        height: 40px;
+        font-weight: bold;
+    }
+}
+
+
+@media all and (max-width:768px) {
+
+    #left{
+        height: auto;
+    }
+
+    #divListViewLoaiMyPham {
+        width: 35%;
+        background-color: #e6e6e6;
+        border: 1px dotted;
+        padding: 1em;
+        margin: 1em;
+        float: left;
+    }
+
+    #divLocTheoGia {
+        width: 35%;
+        margin: 1em;
+        background-color: aliceblue;
+        border: 1px dotted;
+        padding: 1em;
+        float: left;
+    }
+
+    input[type="number"] {
+        margin: 5px;
+        width: 45%;
+    }
+
+    .btnLocTheoGia {
+        width: 75px;
+        padding: 5px;
+        margin: 5px auto;
+    }
+
+    #ItemLoaiMyPham {
+        height: 35px;
+    }
+
+        #ItemLoaiMyPham a {
+            line-height: 35px;
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+            #ItemLoaiMyPham a:hover {
+                text-decoration: underline;
+            }
+
+    #divLocTheoGia p {
+        text-align: center;
+        height: 40px;
+        font-weight: bold;
+    }
+
+    #divLocTheoGia a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        display: block;
+        height: 35px;
+        margin-left: 15px;
+    }
+
+
+        #divLocTheoGia a:hover {
+            text-decoration: underline;
+        }
+
+    #divListViewLoaiMyPham p {
+        text-align: center;
+        height: 40px;
+        font-weight: bold;
+    }
+
+
+}
